@@ -37,7 +37,7 @@ end
 
 def play(board)
   index = 1.to_i
-  until counter >= 10
+  until counter >= 9
     turn(board)
     index += 1.to_i + index
   end
